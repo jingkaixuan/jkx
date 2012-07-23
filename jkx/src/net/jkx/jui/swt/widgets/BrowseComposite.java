@@ -34,7 +34,8 @@ import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.widgets.ToolBar;
 
 /**
- * </p>BrowseComposite是一个浏览文件或文件夹的基于swt的小控件，它的表现形势就是将浏览到的文件或文件夹的全路径显示在一个文本框内。
+ * </p>BrowseComposite是一个浏览文件或文件夹的基于swt的小控件，它的表现形式就是将浏览到的文件或文件夹的全路径显示在一个文本框内。
+ * </p><img src="doc-files/BC.png"/>
  * </p>可以设置浏览过滤器来排除不想看见的文件类型。
  * </p>当浏览操作结束后，可以通过一些getter拿到浏览过的文件及文件夹。
  * @author 荆凯旋
