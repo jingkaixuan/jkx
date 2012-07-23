@@ -7,6 +7,8 @@ public class WeatherData implements Subject {
 	private double temperature;
 	private double humidity;
 	private double pressure;
+	
+	private boolean hasChanaged = false;
 
 	private ArrayList<Observer> observers = new ArrayList<Observer>();
 
@@ -27,6 +29,10 @@ public class WeatherData implements Subject {
 		this.humidity = humidity;
 		this.pressure = pressure;
 		
+		//在对hasChanaged赋值的时候可以给予一种条件判断，比如温度变化大于多少度时才将hasChanaged设置为true
+		//从而使得“变化”具有一定的弹性，而不是“敏感”到一个很小的变化都能引起“观察者”们的注意。
+		this.hasChanaged = true;
+		
 		this.notifyObservers();
 	}
 
@@ -46,8 +52,22 @@ public class WeatherData implements Subject {
 
 	@Override
 	public void notifyObservers() {
+		if(!this.hasChanaged()) {
+			return;
+		}
+		
 		for(Observer o : this.observers) {
 			o.update(this);
 		}
+	}
+
+	@Override
+	public boolean hasChanaged() {
+		return this.hasChanaged;
+	}
+
+	@Override
+	public int countOfObservers() {
+		return this.observers.size();
 	}
 }
