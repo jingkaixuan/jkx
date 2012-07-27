@@ -1,0 +1,13 @@
+package net.jkx.worldwind.abc;
+
+public class HelloWorldWind {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
