@@ -1,4 +1,4 @@
-package net.jkx.jui.swt.widgets;
+package net.jkx.test.jui.swt.widgets;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.FillLayout;
@@ -6,6 +6,7 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
 import net.jkx.designpattern.observer.Observer;
+import net.jkx.jui.swt.widgets.BrowseComposite;
 
 public class TestBrowseComposite implements Observer {
 	BrowseComposite bc = null;
