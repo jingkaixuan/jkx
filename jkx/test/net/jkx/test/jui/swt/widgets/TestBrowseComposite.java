@@ -6,7 +6,7 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
 import net.jkx.designpattern.observer.Observer;
-import net.jkx.jui.swt.widgets.BrowseComposite;
+import net.jkx.ui.swt.widgets.BrowseComposite;
 
 public class TestBrowseComposite implements Observer {
 	BrowseComposite bc = null;

@@ -1,4 +1,4 @@
-package net.jkx.jui.swt.widgets;
+package net.jkx.ui.swt.widgets;
 
 import java.io.File;
 import java.io.IOException;
