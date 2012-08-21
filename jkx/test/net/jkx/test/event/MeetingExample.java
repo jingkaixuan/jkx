@@ -12,6 +12,7 @@ public class MeetingExample {
 		boss.addMeetingListener(StaffMa.himself());
 		boss.addMeetingListener(StaffXu.himself());
 		boss.addMeetingListener(StaffChen.himself());
+		boss.addMeetingListener(StaffJing.himself());
 
 		System.out.println("注意！开始开会了……");
 		System.out.println("来看看大家的反应");
