@@ -12,6 +12,7 @@ public class MeetingExample {
 		boss.addMeetingListener(StaffMa.himself());
 		boss.addMeetingListener(StaffXu.himself());
 		boss.addMeetingListener(StaffChen.himself());
+		boss.addMeetingListener(StaffWang.herself());
 		boss.addMeetingListener(StaffJing.himself());
 		boss.addMeetingListener(StaffLi.herself());
 
