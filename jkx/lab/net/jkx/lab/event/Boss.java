@@ -1,4 +1,4 @@
-package net.jkx.test.event;
+package net.jkx.lab.event;
 
 import java.util.ArrayList;
 

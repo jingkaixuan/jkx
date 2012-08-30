@@ -1,4 +1,4 @@
-package net.jkx.test.worldwind.abc;
+package net.jkx.lab.worldwind.abc;
 
 import java.awt.BorderLayout;
 import java.awt.Component;

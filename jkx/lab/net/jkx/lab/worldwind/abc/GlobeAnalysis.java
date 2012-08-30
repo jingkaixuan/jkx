@@ -1,4 +1,4 @@
-package net.jkx.test.worldwind.abc;
+package net.jkx.lab.worldwind.abc;
 
 import gov.nasa.worldwind.Model;
 import gov.nasa.worldwind.View;

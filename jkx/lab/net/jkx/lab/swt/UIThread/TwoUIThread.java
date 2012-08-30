@@ -1,4 +1,4 @@
-package net.jkx.test.swt.UIThread;
+package net.jkx.lab.swt.UIThread;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.FillLayout;

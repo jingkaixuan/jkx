@@ -1,4 +1,4 @@
-package net.jkx.test.event;
+package net.jkx.lab.event;
 
 public class StaffWang implements MeetingListener {
 	private static StaffWang instance = new StaffWang();

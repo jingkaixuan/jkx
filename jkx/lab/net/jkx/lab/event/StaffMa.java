@@ -1,4 +1,4 @@
-package net.jkx.test.event;
+package net.jkx.lab.event;
 
 public class StaffMa implements MeetingListener {
 	private static StaffMa instance = new StaffMa();
