@@ -7,8 +7,8 @@ import java.util.Vector;
 
 import com.swtdesigner.SWTResourceManager;
 
-import net.jkx.designpattern.observer.Observer;
-import net.jkx.designpattern.observer.Subject;
+import net.jkx.lab.designpattern.observer.Observer;
+import net.jkx.lab.designpattern.observer.Subject;
 import net.mindview.util.BinaryFile;
 
 import org.eclipse.swt.widgets.Button;
